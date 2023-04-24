@@ -10,13 +10,13 @@
                 <x-application-logo class="h-14 w-auto fill-current text-gray-500 " />
             </div>
          <h2 class="mt-6 text-center text-3xl font-bold tracking-tight text-gray-800"> <span class="text-indigo-500 "> Student Registration</span></h2>
-         <p class="mt-4 text-center font-medium text-gray-800 ">
+         <!-- <p class="mt-4 text-center font-medium text-gray-800 ">
                   Or register as&nbsp;
                   <a href=" {{ route('register-professor') }} " class="flex-none rounded-full bg-gray-900 py-1 px-3.5 text-sm font-semibold text-white shadow-sm hover:bg-gray-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-900">
                   Professor 
                   <span aria-hidden="true">&rarr;</span>
                   </a>
-         </p>
+         </p> -->
        </div>
 
     <form method="POST" action="{{ route('register') }}">

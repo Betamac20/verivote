@@ -1,7 +1,8 @@
 <x-guest-layout>
 
     <!-- Session Status -->
-    <x-auth-session-status class="mb-4" :status="session('status')" />
+      <x-auth-session-status class="mb-4 bg-white p-5 rounded-lg" :status="session('status')" />
+
 
 
     <div class="flex min-h-full items-center justify-center py-8 px-4 sm:px-6 lg:px-8 bg-white shadow-lg rounded-lg">
@@ -14,13 +15,13 @@
                 <x-application-logo class="h-14 w-auto fill-current text-gray-500 " />
             </div>
          <h2 class="mt-6 text-center text-5xl font-bold tracking-tight text-gray-800"> <span class="text-indigo-500 "> VeriVote Login</span></h2>
-         <p class="mt-4 text-center font-medium text-gray-800 ">
+         <!-- <p class="mt-4 text-center font-medium text-gray-800 ">
                   Or sign up now &nbsp;
                   <a href="{{ route('register') }}" class="flex-none rounded-full bg-gray-900 py-1 px-3.5 text-sm font-semibold text-white shadow-sm hover:bg-gray-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-900">
                   Register Here 
                   <span aria-hidden="true">&rarr;</span>
                   </a>
-         </p>
+         </p> -->
        </div>
     
        <form method="POST" action="{{ route('login') }}">

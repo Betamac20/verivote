@@ -153,7 +153,7 @@
                             <div class="mt-4" id="divPartylist">
                                 <x-input-error :messages="$errors->get('partylist')" class="mt-2 font-medium bg-red-400 rounded-lg p-2 mb-3 text-center " />
                                 <x-input-label for="partylist" :value="__('Partylist')" />
-                                <x-text-input id="partylist" class="block mt-1 w-full" type="text" name="partylist" :value="old('partylist')" required autofocus autocomplete="id_number" />
+                                <x-text-input id="partylist" class="block mt-1 w-full" type="text" name="partylist" :value="old('partylist')" required autofocus autocomplete="partylist" />
                                 <!-- <x-input-error :messages="$errors->get('email')" class="mt-2" /> -->
                             </div>
 
