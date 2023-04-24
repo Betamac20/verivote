@@ -1,0 +1,1 @@
+<img src="/img/umak.png" alt="" class="h-16 w-auto">
